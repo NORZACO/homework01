@@ -1,0 +1,10 @@
+
+
+
+POST http://localhost:3000/favNumber HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+
+{
+    "number" : 6
+}

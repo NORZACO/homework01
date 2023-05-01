@@ -1,8 +1,74 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.card {
+	margin-top: 50px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.75);
 }
 
-a {
-  color: #00B7FF;
+.card-body {
+	padding: 0;
+}
+
+.form-control {
+	height: 75px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: right;
+	background-color: #f5f5f5;
+	border: none;
+}
+
+.btn {
+	height: 75px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.btn-secondary {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.btn-light {
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+	color: #212529;
+	background-color: #e2e6ea;
+	border-color: #dae0e5;
+}
+
+.wide {
+	width: 150px;
+}
+
+.equals {
+	background-color: #28a745;
+	border-color: #28a745;
+}
+
+.equals:hover {
+	background-color: #218838;
+	border-color: #1e7e34;
 }

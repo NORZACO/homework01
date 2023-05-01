@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "nodemon --trace-warnings ./bin/www",
     "test": "jest"
   },
   "dependencies": {
+    "aws-sdk": "^2.1368.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "http-errors": "~1.6.3",
